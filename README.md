@@ -2,7 +2,7 @@
 
 Landing page institucional de alta conversão desenvolvida para o segmento de estética avançada, com foco em desempenho, acessibilidade, segurança em produção e estrutura semântica otimizada para mecanismos de busca e inteligência artificial generativa (GEO).
 
-🔗 **Acesse o projeto online:** [aura-estetica-avancada.vercel.app](https://aura-estetica-avancada.vercel.app)
+🔗 **Acesse o projeto online:** [aura-estetica-avancada-red.vercel.app](https://aura-estetica-avancada-red.vercel.app)
 
 ---
 
@@ -30,11 +30,12 @@ A **Aura Estética Avançada** é um projeto de portfólio concebido para demons
 * **SEO Técnico e GEO (*Generative Engine Optimization*):**
   * Dados estruturados em **JSON-LD (Schema.org)** tipados como `WebPage` e `FAQPage` para compreensão precisa por motores de busca e assistentes de IA.
 
-### Auditoria Lighthouse (Ambiente Local)
+### Auditoria Lighthouse (Ambiente de Produção — Vercel)
 
-* **Performance:** `93`
+* **Performance:** `100`
 * **Accessibility:** `100`
 * **Best Practices:** `100`
+* **Agentic Browsing:** `2/2`
 * **SEO:** `66` *(pontuação esperada devido ao bloqueio ético intencional de indexação via `noindex` e `robots.txt`)*
 
 ---
