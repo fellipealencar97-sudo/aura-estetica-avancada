@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Aura Estética Avançada | Projeto Demonstrativo de Portfólio</title>
+  <meta name="description" content="Landing page conceitual da clínica fictícia Aura Estética Avançada. Projeto de estudo focado em desenvolvimento web moderno, acessibilidade e boas práticas.">
+
+  <!-- Open Graph (Compartilhamento) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Aura Estética Avançada | Projeto Demonstrativo de Portfólio">
+  <meta property="og:description" content="Landing page conceitual da clínica fictícia Aura Estética Avançada. Projeto de estudo focado em desenvolvimento web moderno, acessibilidade e boas práticas.">
+  <meta property="og:site_name" content="Aura Estética Avançada">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Aura Estética Avançada | Projeto Demonstrativo de Portfólio">
+  <meta name="twitter:description" content="Landing page conceitual da clínica fictícia Aura Estética Avançada. Projeto de estudo focado em desenvolvimento web moderno, acessibilidade e boas práticas.">
+
+  <!-- Dados Estruturados (Schema.org / JSON-LD) para SEO Técnico & GEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "name": "Aura Estética Avançada | Projeto Demonstrativo de Portfólio",
+        "description": "Landing page conceitual da clínica fictícia Aura Estética Avançada. Projeto de estudo focado em desenvolvimento web moderno, acessibilidade e boas práticas.",
+        "inLanguage": "pt-BR",
+        "genre": "Portfolio Demonstration"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Como funciona uma consulta de avaliação estética?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A avaliação inicial serve para analisar as características da pele, esclarecer dúvidas individuais e estruturar uma rotina de cuidados alinhada e segura."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Quais cuidados gerais são indicados antes dos atendimentos?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Manter a pele higienizada, hidratada e com uso contínuo de proteção solar são práticas fundamentais recomendadas antes de qualquer cuidado estético."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "É necessário acompanhamento após o procedimento?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sim, o acompanhamento periódico auxilia na observação da evolução dos resultados e no ajuste dos cuidados diários em casa."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <!-- Tipografia Externa (Google Fonts) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link id="google-fonts" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" media="print">
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  </noscript>
+
+  <!-- Folha de Estilos do Design System -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Link de salto para acessibilidade por teclado (Skip Link) -->
+  <a href="#conteudo-principal" class="skip-link">Pular para o conteúdo principal</a>
+
+  <!-- Cabeçalho e Navegação Principal -->
+  <header class="header">
+    <!-- Aviso de projeto demonstrativo -->
+    <aside class="aviso-topo" aria-label="Aviso de projeto demonstrativo">
+      <p><strong>Ambiente Demonstrativo:</strong> Aura Estética Avançada é uma clínica fictícia criada exclusivamente para fins de estudo e portfólio em desenvolvimento web.</p>
+    </aside>
+
+    <!-- Container do cabeçalho alinhado à grid de 1200px -->
+    <div class="header-container">
+      <div class="header-topo-mobile">
+        <button
+          type="button"
+          class="btn-menu-mobile"
+          aria-expanded="false"
+          aria-controls="menu-principal"
+          aria-label="Abrir menu de navegação">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M3 12H21M3 6H21M3 18H21" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+
+        <a href="#inicio" class="logo">Aura Estética Avançada</a>
+
+        <a href="#agendamento" class="btn-cta-header">Agendar</a>
+      </div>
+
+      <!-- Navegação / Menu Principal (Drawer Mobile & Linha Única Desktop) -->
+      <nav id="menu-principal" class="nav-principal" aria-label="Menu Principal">
+        <button type="button" class="btn-fechar-menu" aria-label="Fechar menu">&times;</button>
+        <ul>
+          <li><a href="#">Início</a></li>
+          <li><a href="#diferenciais">Diferenciais</a></li>
+          <li><a href="#procedimentos">Procedimentos</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#faq">Perguntas Frequentes</a></li>
+          <li><a href="#agendamento">Agendamento</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main id="conteudo-principal">
+
+    <!-- Seção 1: Início / Hero -->
+    <section id="inicio" class="secao-hero" aria-labelledby="titulo-hero">
+      <div class="hero-container">
+        <div class="hero-conteudo">
+          <span class="hero-badge-tag">Cuidado Personalizado</span>
+          <h1 id="titulo-hero">Cuidado estético personalizado focado em saúde, equilíbrio e bem-estar</h1>
+          <p>Proposta conceitual de atendimento individualizado, unindo bem-estar, tecnologia moderna e respeito às características naturais de cada pessoa.</p>
+          <div class="hero-acoes">
+            <a href="#agendamento" class="btn-cta-principal">Solicitar Avaliação (Demonstrativo)</a>
+            <a href="#procedimentos" class="btn-secundario">Conhecer Procedimentos</a>
+          </div>
+        </div>
+
+        <!-- Fotografia Editorial da Hero Section (Alta prioridade para LCP) -->
+        <div class="hero-visual">
+          <figure class="hero-figura">
+            <img
+              src="assets/images/hero-estetica-avancada.webp"
+              alt="Retrato em close-up de mulher com expressão serena e pele natural saudável, simbolizando o cuidado personalizado da clínica."
+              width="800"
+              height="1000"
+              fetchpriority="high"
+              decoding="async"
+              class="hero-foto">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção 2: Diferenciais de Atendimento -->
+    <section id="diferenciais" class="secao-diferenciais" aria-labelledby="titulo-diferenciais">
+      <div class="secao-conteudo">
+        <h2 id="titulo-diferenciais">Nossos Diferenciais de Atendimento</h2>
+        <p>Pilares conceituais pensados para uma experiência acolhedora, respeitosa e segura.</p>
+        <div class="grid-diferenciais">
+          <article class="card-diferencial">
+            <h3 id="diff-1">Avaliação Individualizada</h3>
+            <p>Planejamento de rotinas e cuidados alinhados com as expectativas e particularidades de cada cliente.</p>
+          </article>
+          <article class="card-diferencial">
+            <h3 id="diff-2">Ambiente Confortável e Acolhedor</h3>
+            <p>Estrutura pensada para oferecer momentos de relaxamento, discrição e tranquilidade.</p>
+          </article>
+          <article class="card-diferencial">
+            <h3 id="diff-3">Acompanhamento Atencioso</h3>
+            <p>Orientação prévia e suporte contínuo para incentivar hábitos saudáveis de autocuidado.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção 3: Procedimentos em Destaque -->
+    <section id="procedimentos" class="secao-tratamentos" aria-labelledby="titulo-tratamentos">
+      <div class="secao-conteudo">
+        <h2 id="titulo-tratamentos">Procedimentos em Destaque</h2>
+        <p>Exemplos de cuidados estéticos faciais e corporais apresentados de forma ilustrativa.</p>
+        <div class="grid-tratamentos">
+          <article class="card-tratamento">
+            <h3 id="trat-1">Revitalização Facial Suave</h3>
+            <p>Protocolos focados na renovação e luminosidade da pele por meio de técnicas hidratantes e nutritivas.</p>
+          </article>
+          <article class="card-tratamento">
+            <h3 id="trat-2">Hidratação Dérmica Profunda</h3>
+            <p>Combinações de ativos selecionados para apoiar a recuperação do viço natural e a elasticidade da barreira cutânea.</p>
+          </article>
+          <article class="card-tratamento">
+            <h3 id="trat-3">Cuidados Corporais Preventivos</h3>
+            <p>Abordagens voltadas ao suporte da firmeza e da textura uniforme da pele em diferentes regiões corporais.</p>
+          </article>
+          <article class="card-tratamento">
+            <h3 id="trat-4">Massagem Relaxante e Drenagem</h3>
+            <p>Sessões dedicadas ao alívio de tensões, conforto muscular e estímulo suave à circulação corporal.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção 4: A Clínica e Filosofia -->
+    <section id="sobre" class="secao-sobre" aria-labelledby="titulo-sobre">
+      <div class="secao-conteudo">
+        <h2 id="titulo-sobre">Conheça a Aura Estética Avançada</h2>
+        <p>A Aura Estética Avançada nasce como um modelo conceitual de clínica focado na relação humana, no bem-estar e no autocuidado consciente.</p>
+        <p>Nossa proposta valoriza a beleza em sua forma autêntica, defendendo que cada procedimento deve respeitar a saúde da pele e o ritmo natural do organismo, sem exageros ou promessas irreais.</p>
+      </div>
+    </section>
+
+    <!-- Seção 5: Dúvidas Frequentes -->
+    <section id="faq" class="secao-faq" aria-labelledby="titulo-faq">
+      <div class="secao-conteudo">
+        <h2 id="titulo-faq">Dúvidas Frequentes</h2>
+        <div class="lista-faq">
+          <details class="item-faq">
+            <summary>Como funciona uma consulta de avaliação estética?</summary>
+            <div class="faq-conteudo">
+              <div class="faq-conteudo-inner">
+                <p>A avaliação inicial serve para analisar as características da pele, esclarecer dúvidas individuais e estruturar uma rotina de cuidados alinhada e segura.</p>
+              </div>
+            </div>
+          </details>
+          <details class="item-faq">
+            <summary>Quais cuidados gerais são indicados antes dos atendimentos?</summary>
+            <div class="faq-conteudo">
+              <div class="faq-conteudo-inner">
+                <p>Manter a pele higienizada, hidratada e com uso contínuo de proteção solar são práticas fundamentais recomendadas antes de qualquer cuidado estético.</p>
+              </div>
+            </div>
+          </details>
+          <details class="item-faq">
+            <summary>É necessário acompanhamento após o procedimento?</summary>
+            <div class="faq-conteudo">
+              <div class="faq-conteudo-inner">
+                <p>Sim, o acompanhamento periódico auxilia na observação da evolução dos resultados e no ajuste dos cuidados diários em casa.</p>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção 6: Agendamento e Contato Demonstrativo -->
+    <section id="agendamento" class="secao-agendamento" aria-labelledby="titulo-agendamento">
+      <div class="secao-conteudo">
+        <h2 id="titulo-agendamento">Agendamento de Consulta</h2>
+        <p>Para fins de portfólio e demonstração técnica, o botão abaixo simula a chamada para agendamento direto via WhatsApp.</p>
+
+        <div class="cta-box-agendamento">
+          <button type="button" class="btn-agendamento-demonstrativo" aria-describedby="aviso-cta-demonstrativo">
+            Agendar Consulta pelo WhatsApp (Demonstrativo)
+          </button>
+          <p id="aviso-cta-demonstrativo" class="nota-demonstrativa">
+            <strong>Nota informativa:</strong> Este elemento é uma demonstração de interface. Não há redirecionamento externo para números de telefone, mensagens automáticas ou coleta de dados nesta etapa.
+          </p>
+        </div>
+
+        <div class="detalhes-contato-demonstrativo">
+          <p><strong>Canal de Demonstração:</strong> Atendimento conceitual para portfólio de front-end.</p>
+          <p><strong>Localização:</strong> Projeto conceitual — sem estabelecimento físico real.</p>
+          <p><strong>Responsabilidade Técnica:</strong> Ambiente de demonstração — sem vínculo profissional real.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Rodapé Institucional -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-identificacao">
+        <p class="footer-logo">Aura Estética Avançada</p>
+        <p class="footer-tagline">Projeto conceitual de desenvolvimento web e design de interfaces.</p>
+      </div>
+
+      <div class="footer-aviso-legal" role="note" aria-label="Aviso legal de projeto demonstrativo">
+        <p><strong>Aviso de Portfólio:</strong> Este site é uma obra fictícia criada estritamente para demonstração de habilidades técnicas em HTML5, CSS3 e JavaScript. Não representa uma empresa real, clínica médica ou estabelecimento em funcionamento. Nenhuma certificação, credencial ou atendimento comercial é ofertado.</p>
+      </div>
+
+      <div class="footer-copyright">
+        <p>&copy; 2026 Aura Estética Avançada — Projeto demonstrativo para portfólio.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

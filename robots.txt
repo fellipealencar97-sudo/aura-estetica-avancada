@@ -1,0 +1,16 @@
+# ==========================================================================
+# ROBOTS.TXT — AURA ESTÉTICA AVANÇADA (PROJETO DEMONSTRATIVO DE PORTFÓLIO)
+# ==========================================================================
+# Nota Técnica de Engenharia & Ética:
+# Como este site representa uma clínica fictícia criada exclusivamente para
+# portfólio, o rastreamento e a indexação estão bloqueados para evitar que
+# buscadores (Google/Bing) e motores de IA (GEO) exibam dados fictícios como
+# estabelecimento comercial real.
+#
+# Em um projeto de cliente real em produção, substitua "Disallow: /" por:
+# Allow: /
+# Sitemap: https://www.seudominio.com.br/sitemap.xml
+# ==========================================================================
+
+User-agent: *
+Disallow: /
